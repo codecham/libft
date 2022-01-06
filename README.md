@@ -1,2 +1,2 @@
 # libft
-42 project's libft (2022)
+42 school - libft (2022)
