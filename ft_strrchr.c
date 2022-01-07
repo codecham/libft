@@ -6,7 +6,7 @@
 /*   By: dcorenti <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/06 17:55:36 by dcorenti          #+#    #+#             */
-/*   Updated: 2022/01/06 18:43:05 by dcorenti         ###   ########.fr       */
+/*   Updated: 2022/01/07 18:22:29 by dcorenti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@ char	*ft_strrchr(const char *s, int c)
 
 	tmp = c;
 	i = 0;
-	if (!s)
-		return (0);
 	while (s[i])
 		i++;
 	if (!c)

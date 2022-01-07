@@ -6,7 +6,7 @@
 /*   By: dcorenti <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/06 17:54:53 by dcorenti          #+#    #+#             */
-/*   Updated: 2022/01/06 17:55:01 by dcorenti         ###   ########.fr       */
+/*   Updated: 2022/01/07 18:22:37 by dcorenti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	int		len;
 	size_t	i;
 
-	if (!src || !dst)
-		return (0);
 	len = 0;
 	i = 0;
 	while (src[len])
